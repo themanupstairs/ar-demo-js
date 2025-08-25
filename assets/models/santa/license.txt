@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mobile - Gummy Bear Runner - Santa Hat
+* source:	https://sketchfab.com/3d-models/mobile-gummy-bear-runner-santa-hat-6fa120c7b9104801ab28b382154e4c44
+* author:	Eric.Stirbescu (https://sketchfab.com/eric.stirbescu)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mobile - Gummy Bear Runner - Santa Hat" (https://sketchfab.com/3d-models/mobile-gummy-bear-runner-santa-hat-6fa120c7b9104801ab28b382154e4c44) by Eric.Stirbescu (https://sketchfab.com/eric.stirbescu) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
