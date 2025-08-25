@@ -1,0 +1,223 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 39912,
+      "max": [
+        0.5835658311843872,
+        0.05938037112355232,
+        1.3104408979415894
+      ],
+      "min": [
+        -0.5388192534446716,
+        -0.8484670519828796,
+        -0.055888768285512924
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 478944,
+      "componentType": 5126,
+      "count": 39912,
+      "max": [
+        0.9999272227287292,
+        0.9999293088912964,
+        0.9999915361404419
+      ],
+      "min": [
+        -0.9999272227287292,
+        -0.999994695186615,
+        -0.9997060298919678
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 39912,
+      "max": [
+        0.9645699858665466,
+        0.9980400204658508
+      ],
+      "min": [
+        0.0019499999471008778,
+        0.0019499999471008778
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 59868,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "EagleWingz7500 (https://sketchfab.com/eaglewingz7500)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bunny-girl-headband-6ddbd1b3b15b41ecad799ee9e73de3d6",
+      "title": "Bunny Girl Headband"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 239472,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 319296,
+      "byteOffset": 239472,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 957888,
+      "byteOffset": 558768,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1516656,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Scene_-_Root",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6907393292682927
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Bunny Headband_Zremeshed__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        -8.501130182487864e-32,
+        1.6081226229577292e-16,
+        0.0,
+        2.465190328815662e-32,
+        -1.0,
+        -6.661338147750939e-16,
+        0.0,
+        1.6081226229577292e-16,
+        6.661338147750939e-16,
+        -1.0,
+        0.0,
+        1.2079226507921703e-13,
+        -1906.50048828125,
+        434.22723388671835,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "15a42c998e8c425da85b5084c2786a1e.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1865.7857666015625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1865.7857666015377,
+        0.00030397512156593636,
+        0.0,
+        0.0,
+        -0.00030397512156593636,
+        1865.7857666015377,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Bunny Headband_Zremeshed"
+    },
+    {
+      "mesh": 0,
+      "name": "Bunny Headband_Zremeshed__0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

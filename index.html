@@ -12,11 +12,15 @@
       <div class="options-panel">
          <img
           id="hat"
-          src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/earring/thumbnail.png"
+          src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/santa/thumbnail.png"
         />
         <img
           id="earring"
           src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/earring/thumbnail.png"
+        />
+        <img
+          id="headband"
+          src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/headband/thumbnail.png"
         />
       </div>
       <a-scene
@@ -35,6 +39,10 @@
           <a-asset-item
             id="hatModel"
             src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/santa/scene.gltf"
+          ></a-asset-item>
+          <a-asset-item
+            id="headbandModel"
+            src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/headband/scene.gltf"
           ></a-asset-item>
         </a-assets>
         <a-camera active="false" position="0 0 0"></a-camera>
@@ -67,6 +75,16 @@
             scale="0.008 0.008 0.008"
             src="#hatModel"
             class="hat-entity"
+            visible="false"
+          ></a-gltf-model>
+        </a-entity>
+        <a-entity mindar-face-target="anchorIndex: 10">
+          <a-gltf-model
+            rotation="0 -0 0"
+            position="0 -0.2 -0.5"
+            scale="0.008 0.008 0.008"
+            src="#headbandModel"
+            class="headband-entity"
             visible="false"
           ></a-gltf-model>
         </a-entity>
