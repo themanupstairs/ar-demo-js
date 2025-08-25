@@ -1,8 +1,7 @@
-
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-   
+
     <script src="src/aframe.min.js"></script>
     <script src="src/mindar-face-aframe.prod.js"></script>
     <script src="src/main.js"></script>
@@ -11,27 +10,66 @@
   <body>
     <div class="example-container">
       <div class="options-panel">
-	<img id="hat" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/examples/face-tracking/assets/hat2/thumbnail.png"/>
-	<img id="earring" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/examples/face-tracking/assets/earring/thumbnail.png"/>
+         <img
+          id="hat"
+          src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/earring/thumbnail.png"
+        />
+        <img
+          id="earring"
+          src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/earring/thumbnail.png"
+        />
       </div>
-      <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+      <a-scene
+        mindar-face
+        embedded
+        color-space="sRGB"
+        renderer="colorManagement: true, physicallyCorrectLights"
+        vr-mode-ui="enabled: false"
+        device-orientation-permission-ui="enabled: false"
+      >
         <a-assets>
-
-          <a-asset-item id="hatModel" src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/santa/scene.gltf"></a-asset-item>
-          <a-asset-item id="earringModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/examples/face-tracking/assets/earring/scene.gltf"></a-asset-item>
+          <a-asset-item
+            id="earringModel"
+            src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/earring/scene.gltf"
+          ></a-asset-item>
+          <a-asset-item
+            id="hatModel"
+            src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/santa/scene.gltf"
+          ></a-asset-item>
         </a-assets>
         <a-camera active="false" position="0 0 0"></a-camera>
-	<!-- head occluder -->
+        <!-- head occluder -->
         <a-entity mindar-face-target="anchorIndex: 168">
-	  <a-gltf-model mindar-face-occluder position="0 -0.3 0.15" rotation="0 0 0" scale="0.065 0.065 0.065" src="#headModel"></a-gltf-model>
+          <a-gltf-model
+            mindar-face-occluder
+            position="0 -0.3 0.15"
+            rotation="0 0 0"
+            scale="0.065 0.065 0.065"
+            src="#headModel"
+          ></a-gltf-model>
         </a-entity>
-        <a-entity mindar-face-target="anchorIndex: 10">
-	  <a-gltf-model rotation="0 -0 0" position="0 -0.2 -0.5" scale="0.008 0.008 0.008" src="#hatModel" class="hat2-entity" visible="false"></a-gltf-model>
-        </a-entity>
+        <!-- earring -->
         <a-entity mindar-face-target="anchorIndex: 127">
-	  <a-gltf-model rotation="-0.1 -0 0" position="0 -0.3 -0.3" scale="0.05 0.05 0.05" src="#earringModel" class="earring-entity" visible="false"></a-gltf-model>
+          <a-gltf-model
+            rotation="-0.1 -0 0"
+            position="0 -0.35 -0.2"
+            scale="0.05 0.05 0.05"
+            src="#earringModel"
+            class="earring-entity"
+            visible="false"
+          ></a-gltf-model>
         </a-entity>
-       
+        <!-- hat -->
+        <a-entity mindar-face-target="anchorIndex: 10">
+          <a-gltf-model
+            rotation="0 -0 0"
+            position="0 -0.2 -0.5"
+            scale="0.008 0.008 0.008"
+            src="#hatModel"
+            class="hat-entity"
+            visible="false"
+          ></a-gltf-model>
+        </a-entity>
       </a-scene>
     </div>
   </body>
