@@ -10,13 +10,13 @@
   <body>
     <div class="example-container">
       <div class="options-panel">
-         <img
-          id="hat"
-          src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/santa/thumbnail.png"
-        />
         <img
           id="earring"
           src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/earring/thumbnail.png"
+        />
+        <img
+          id="hat"
+          src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/santa/thumbnail.png"
         />
         <img
           id="headband"
@@ -57,7 +57,7 @@
           ></a-gltf-model>
         </a-entity>
         <!-- earring -->
-        <a-entity mindar-face-target="anchorIndex: 127">
+        <a-entity mindar-face-target="anchorIndex: 128">
           <a-gltf-model
             rotation="-0.1 -0 0"
             position="0 -0.35 -0.2"
@@ -68,21 +68,19 @@
           ></a-gltf-model>
         </a-entity>
         <!-- hat -->
-        <a-entity mindar-face-target="anchorIndex: 10">
+        <a-entity mindar-face-target="anchorIndex: 127">
           <a-gltf-model
-            rotation="0 -0 0"
-            position="0 -0.2 -0.5"
-            scale="0.008 0.008 0.008"
+            rotation="20 20 0" position="0 -0.005 -0.5" scale="0.75 0.7 0.75"
             src="#hatModel"
             class="hat-entity"
             visible="false"
-          ></a-gltf-model>
+          ></a-gltf-model
         </a-entity>
         <a-entity mindar-face-target="anchorIndex: 10">
           <a-gltf-model
-            rotation="0 -0 0"
-            position="0 -0.2 -0.5"
-            scale="0.008 0.008 0.008"
+            rotation="-0.1 -0 0"
+            position="0 -0.35 -0.2"
+            scale="0.75 0.7 0.75"
             src="#headbandModel"
             class="headband-entity"
             visible="false"

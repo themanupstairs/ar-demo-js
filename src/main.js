@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const list = ["earring", "hat"];
-  const visibles = [true, false];
+  const list = ["earring", "hat", "headband"];
+  const visibles = [false, false, true];
   const setVisible = (button, entities, visible) => {
     if (visible) {
       button.classList.add("selected");
