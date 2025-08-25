@@ -17,13 +17,13 @@
       <a-scene mindar-face embedded color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
         <a-assets>
 
-          <a-asset-item id="hatModel" src="/assets/models/santa/scene.gltf"></a-asset-item>
+          <a-asset-item id="hatModel" src="https://cdn.jsdelivr.net/gh/themanupstairs/ar-demo-js/assets/models/santa/scene.gltf"></a-asset-item>
           <a-asset-item id="earringModel" src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/examples/face-tracking/assets/earring/scene.gltf"></a-asset-item>
         </a-assets>
         <a-camera active="false" position="0 0 0"></a-camera>
 	<!-- head occluder -->
         <a-entity mindar-face-target="anchorIndex: 168">
-	  <a-gltf-model mindar-face-occluder position="0 -0.3 0.15"rotation="0 0 0" scale="0.065 0.065 0.065" src="#headModel"></a-gltf-model>
+	  <a-gltf-model mindar-face-occluder position="0 -0.3 0.15" rotation="0 0 0" scale="0.065 0.065 0.065" src="#headModel"></a-gltf-model>
         </a-entity>
         <a-entity mindar-face-target="anchorIndex: 10">
 	  <a-gltf-model rotation="0 -0 0" position="0 -0.2 -0.5" scale="0.008 0.008 0.008" src="#hatModel" class="hat2-entity" visible="false"></a-gltf-model>
